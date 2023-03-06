@@ -1,1 +1,1 @@
-SELECT DISTINCT country 
+SELECT DISTINCT country FROM customers

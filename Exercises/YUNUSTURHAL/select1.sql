@@ -1,2 +1,2 @@
 SELECT Name,Albumid FROM tracks;
-SELECT Count
+SELECT Count (DIS)

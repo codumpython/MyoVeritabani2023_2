@@ -1,1 +1,1 @@
-SELECT Count(DISTINCT Country)
+SELECT Count(DISTINCT Country) FROM 

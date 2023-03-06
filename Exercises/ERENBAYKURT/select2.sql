@@ -1,1 +1,1 @@
-SELECT DISTINCT(* FROM customers;
+SELECT DISTINCT(* FROM )customers;

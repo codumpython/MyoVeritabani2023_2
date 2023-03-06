@@ -1,1 +1,1 @@
-SELECT COUNT(DISTINCTC ountry from
+SELECT COUNT(DISTINCTC country) from
