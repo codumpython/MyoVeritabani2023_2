@@ -1,1 +1,1 @@
-SELECT DISTINCT Country FROM trakcs
+SELECT DISTINCT Country FROM Customers;

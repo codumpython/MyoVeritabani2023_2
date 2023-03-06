@@ -1,1 +1,1 @@
-SELECET DISTINCT COUNT(customers) FROM tracks;
+SELECT DISTINCT COUNT(Country) FROM customers;

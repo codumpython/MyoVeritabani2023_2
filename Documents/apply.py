@@ -3,7 +3,7 @@ import sqlite3 as sql
 # cur = db.cursor()
 import os
 liste = os.listdir("/workspace/MyoVeritabani2023_2/Exercises")
-fileName = "select1.sql"
+fileName = "select2.sql"
 for item in liste:
     with open(f"/workspace/MyoVeritabani2023_2/Exercises/{item}/{fileName}","r") as dosya:
         cevap = dosya.read().strip()
