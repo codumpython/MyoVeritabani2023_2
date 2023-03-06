@@ -1,1 +1,1 @@
-SELECT Name,Albumid FROM tracks;
+SELECT Name,AlbumId FROM tracks;
