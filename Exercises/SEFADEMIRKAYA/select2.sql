@@ -1,1 +1,1 @@
-select * from DISTINCT ()
+select * from DISTINCT Count (Country) ;

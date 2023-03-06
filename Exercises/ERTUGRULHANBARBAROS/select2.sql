@@ -1,1 +1,1 @@
-SELECT count(DISTINCT country) FROM 
+SELECT COUNT(DISTINCT Country) FROM customers;
