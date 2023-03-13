@@ -1,2 +1,2 @@
 SELECT album FROM tracks
-WHERE albumid and track name BETWEEN 20 AND 50;
+WHERE tracidBETWEEN 20 AND 50;

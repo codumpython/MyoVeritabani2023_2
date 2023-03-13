@@ -1,2 +1,2 @@
-SELECT albumid,name from tracks
-WHERE albumid,nameid BETWEEN 20 AND 50
+SELECT albumId,name FROM tracks
+WHERE trackId BETWEEN 20 AND 50;

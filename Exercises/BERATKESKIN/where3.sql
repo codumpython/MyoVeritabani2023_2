@@ -1,1 +1,1 @@
-select albumid, track from tracks where id between 20 and 50;
+select albumid, name from tracks where trackid between 20 and 50;
