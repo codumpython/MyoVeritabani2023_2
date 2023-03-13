@@ -1,0 +1,1 @@
+select count(*) from tracks where name LIKE 'A%';
