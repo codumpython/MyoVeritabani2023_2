@@ -1,0 +1,1 @@
+SELECT Name,albumId FROM tracks;
