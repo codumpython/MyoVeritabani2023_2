@@ -1,1 +1,1 @@
-SELECT Albumid
+SELECT Albumid,Name FROM tracks WHERE Albumid BETWEEN 20 AND 50; 

@@ -1,0 +1,2 @@
+SELECT albumid,NAME FROM tracks
+WHERE albumid BETWEEN 20 AND 50;
