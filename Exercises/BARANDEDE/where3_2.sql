@@ -1,4 +1,4 @@
-SELECT name
+SELECT count (name)
 FROM tracks
 WHERE trackId IN (
         SELECT albumID
@@ -6,6 +6,6 @@ WHERE trackId IN (
         WHERE artistId IN (
                     SELECT artistId
                     FROM artists
-                    WHERE Name LIKE '??????'
+                    WHERE Name LIKE 'S_____a%'
                 )
     );

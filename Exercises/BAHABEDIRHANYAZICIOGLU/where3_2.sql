@@ -9,4 +9,4 @@ WHERE trackId IN (
                     WHERE Name LIKE '??????'
                 )
     );
-/* artistlerden isminin ilk harfi S olan 7. harfi a olan sanatçıların parça sayısını bulan sorguyu yazınız*/  
+/* artistlerden isminin ilk harfi S olan 7. harfi a olan sanatçıların şarkı sayısını bulan sorguyu yazınız*/  
