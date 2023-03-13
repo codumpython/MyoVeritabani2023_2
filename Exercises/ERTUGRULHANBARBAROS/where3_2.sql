@@ -10,6 +10,6 @@ WHERE trackId IN (
                 )
     );*/
 /* artistlerden isminin ilk harfi S olan 7. harfi a olan sanatçıların parça sayısını bulan sorguyu yazınız*/  
-SELECT COUNT(*)
+SELECT COUNT(name)
 FROM tracks WHERE trackId IN
 (SELECT albumID FROM ALBUMS WHERE artistId IN(SELECT artistId FROM artists WHERE NAME LIKE 'S_____a%'));

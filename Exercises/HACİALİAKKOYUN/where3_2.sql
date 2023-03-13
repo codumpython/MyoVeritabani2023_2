@@ -1,4 +1,4 @@
-SELECT  count ( name) albumID
+SELECT  count (name) albumID
 FROM tracks
 WHERE trackId IN (
         SELECT albumID
