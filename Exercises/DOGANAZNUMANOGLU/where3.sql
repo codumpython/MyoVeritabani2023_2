@@ -1,2 +1,2 @@
-SELECT albumid, Name FROM tracks
-WHERE trackid BETWEEN 20 AND 50;
+SELECT unitprice, Name FROM tracks
+WHERE trackid < 10;
