@@ -5,3 +5,8 @@ ID si 20 ile 25 arasında olan kayıtların filtrelenmesi ve ID bilgisine göre 
 sağlayan sorguyu yazınız
 */  
 
+SELECT * FROM customers
+WHERE (state IS NOT NULL
+AND fax IS NULL)
+AND (customerID BETWEEN 20 AND 25)
+ORDER BY customerID DESC;

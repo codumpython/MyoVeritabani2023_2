@@ -1,3 +1,15 @@
+SELECT * FROM customers 
+WHERE Company IS NOT NULL and Fax IS NULL AND 
+ CustomerID( BETWEEN 20 AND 25 )
+ ORDER BY CustomerID;
+
+
+
+
+
+
+
+
 
 /* Egzersiz
 Customer tablosundaki kayıtlardan STATE bilgi dolu olan ve Fax bilgisi boş olan kayıtlardan 
