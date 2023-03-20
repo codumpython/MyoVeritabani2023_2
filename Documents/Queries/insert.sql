@@ -9,4 +9,4 @@
 */
 -- INSERT INTO insertegzersiz (FirstName,LastName,Email,Number)
 -- VALUES ('İbrahim','Ediz','ibrahim.ediz@gazi.edu.tr',5554444555)
-SELECT * FROM insertegzersiz
+SELECT DISTINCT FirstName,LastName FROM insertegzersiz
