@@ -1,10 +1,9 @@
+
+
 SELECT * FROM customers 
-WHERE Company IS NOT NULL and Fax IS NULL AND 
- CustomerID( BETWEEN 20 AND 25 )
- ORDER BY CustomerID;
-
-
-
+WHERE (State IS NOT NULL AND Fax IS NULL)
+AND (customerId BETWEEN 20 AND 25)
+ORDER BY customerId DESC;
 
 
 

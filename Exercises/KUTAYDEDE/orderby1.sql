@@ -6,6 +6,7 @@ sağlayan sorguyu yazınız
 */  
 
 SELECT * FROM Customers
-WHERE (STATE IS NOT NULL AND FAX IS NULL)
+WHERE STATE IS NOT NULL
+AND FAX IS NULL
 AND CustomerId BETWEEN 20 AND 25
 ORDER BY CustomerId DESC;

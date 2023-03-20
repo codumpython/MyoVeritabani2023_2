@@ -7,4 +7,4 @@ sağlayan sorguyu yazınız
 SELECT * FROM customers 
 WHERE (State IS NOT NULL AND Fax IS NULL)
 AND (customerId BETWEEN 20 AND 25)
-ORDER BY customerId
+ORDER BY customerId DESC;

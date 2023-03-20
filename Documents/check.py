@@ -1,13 +1,12 @@
 import os
 liste = os.listdir("/workspace/MyoVeritabani2023_2/Exercises")
-fileName = "orderby1.sql"
+fileName = "insert1.sql"
 for item in liste:
     dosya = open(f"/workspace/MyoVeritabani2023_2/Exercises/{item}/{fileName}","a+")
     text = """
 /* Egzersiz
-Customer tablosundaki kayıtlardan STATE bilgi dolu olan ve Fax bilgisi boş olan kayıtlardan 
-ID si 20 ile 25 arasında olan kayıtların filtrelenmesi ve ID bilgisine göre büyükten küçüğe sıralanmasını 
-sağlayan sorguyu yazınız
+insert egzersiz tablosuna (FirstName,LastName,Email,Number) sütunlarını kullanarak bilgilerinisi
+insert sorgusu yazarak ekleyiniz
 */  
 """ 
     dosya.write(text)
