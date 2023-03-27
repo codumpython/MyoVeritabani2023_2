@@ -4,4 +4,5 @@
 insertegzersiz tablosuna yaptığınız kaydı silen sorguyu yazınız
 
 */  
-jıhu
+DELETE FROM insertegzersiz WHERE FirstName LIKE'CEREN' 
+

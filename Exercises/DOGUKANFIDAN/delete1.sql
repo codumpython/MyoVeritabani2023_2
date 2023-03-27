@@ -1,3 +1,4 @@
+DELETE FROM insertegzersiz Where FirstName LIKE 'Dogukan'
 
 /* Egzersiz
 

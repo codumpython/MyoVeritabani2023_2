@@ -5,4 +5,4 @@ insertegzersiz tablosuna yaptığınız kaydı silen sorguyu yazınız
 
 */  
 
-DELETE FROM ins
+DELETE FROM insertegzersiz WHERE StudentId=4;

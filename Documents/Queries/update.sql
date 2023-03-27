@@ -56,9 +56,8 @@
 
 
 
--- UPDATE insertegzersiz 
--- SET FirstName = 'Yusuf',LastName='Yıldız',UpdateTime=datetime()
--- WHERE FirstName LIKE 'YUSUF'
+UPDATE insertegzersiz 
+SET FirstName = 'Yusuf',LastName='Yıldız',UpdateTime=datetime()
+WHERE FirstName LIKE 'YUSUF'
 
 
-SELECT * FROM insertegzersiz WHERE UpdateTime IS NOT NULL
