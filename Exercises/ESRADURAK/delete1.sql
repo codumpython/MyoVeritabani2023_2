@@ -4,4 +4,4 @@
 insertegzersiz tablosuna yaptığınız kaydı silen sorguyu yazınız
 */
 
-SELECT * FROM insertegzersiz_log;
+DELETE  FROM insertegzersiz WHERE FirstName LIKE 'ESRA';
