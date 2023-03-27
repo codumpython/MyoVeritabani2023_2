@@ -1,16 +1,12 @@
 import os
 liste = os.listdir("/workspace/MyoVeritabani2023_2/Exercises")
-fileName = "update1.sql"
+fileName = "delete1.sql"
 for item in liste:
     dosya = open(f"/workspace/MyoVeritabani2023_2/Exercises/{item}/{fileName}","a+")
     text = """
 /* Egzersiz
 
-UPDATE insertegzersiz 
-SET FirstName = 'Yusuf',LastName='Yıldız',UpdateTime=datetime()
-WHERE FirstName LIKE 'YUSUF'
-
-Yukarıdaki sorgundan faydalanarak isminizin bulunduğu satırlarda isim ve soy isminizi büyük harfle yazarak kayıtları güncelleyiniz.
+insertegzersiz tablosuna yaptığınız kaydı silen sorguyu yazınız
 
 */  
 """ 

@@ -5,3 +5,4 @@ insert sorgusu yazarak ekleyiniz
 */  
 INSERT INTO insertegzersiz (FirstName,LastName,Email,Number)
 VALUES('Kutay','DEDE','kutay.dede@gazi.edu.tr',5458541114)
+

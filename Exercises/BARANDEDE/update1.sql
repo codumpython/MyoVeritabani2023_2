@@ -8,3 +8,4 @@ WHERE FirstName LIKE 'YUSUF'
 Yukarıdaki sorgundan faydalanarak isminizin bulunduğu satırlarda isim ve soy isminizi büyük harfle yazarak kayıtları güncelleyiniz.
 
 */  
+UPDATE insertegzersiz SET FirstName='BARAN DEDE', LastName='DEDE', UpdateTime=datetime() WHERE FirstName LIKE 'BARANDEDE';

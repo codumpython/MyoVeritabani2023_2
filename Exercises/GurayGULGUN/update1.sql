@@ -1,4 +1,4 @@
-
+UPDATE insertegzersiz SET FirstName ="GÜRAY", Lastname="GÜLGÜN",  UpdateTime=datetime() WHERE FirstName LIKE "Güray";
 /* Egzersiz
 
 UPDATE insertegzersiz 
