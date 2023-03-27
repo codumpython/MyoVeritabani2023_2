@@ -19,6 +19,7 @@ for item in liste:
             db.commit()
         except Exception as hata:
             print(item,"=> ",hata)
+            db.rollback()
         finally:
             db.close()
 
