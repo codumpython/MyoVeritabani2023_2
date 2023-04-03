@@ -4,7 +4,7 @@ insert egzersiz tablosuna (FirstName,LastName,Email,Number) sütunlarını kulla
 insert sorgusu yazarak ekleyiniz
 */  
 
--- INSERT INTO insertegzersiz( FirstName, LastName,Email, Number)
--- VALUES ('YUSUF','YILDIZ','yusufyildizzz51@gmail.com',5449698923);
+ INSERT INTO insertegzersiz( FirstName, LastName,Email, Number)
+ VALUES ('YUSUF','YILDIZ','yusufyildizzz51@gmail.com',5449698923);
 
 
