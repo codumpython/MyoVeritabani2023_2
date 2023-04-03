@@ -1,4 +1,8 @@
-SELECT(SELECT Name FROM albums AS  )
+SELECT(SELECT art.Name FROM artists AS art WHERE art.ArtistId = alb.ArtistId ) as ArtisAdı,
+count(*)
+FROM albums as alb GROUP BY alb.ArtistId;
+
+
 
 
 

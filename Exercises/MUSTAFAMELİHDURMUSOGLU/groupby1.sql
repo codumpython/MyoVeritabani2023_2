@@ -6,8 +6,8 @@ Sorgunun ArtisAdı,AlbümSayısı şeklinde olması gerekmektedir.
 */  
 
 SELECT
-(SELECT Title
-FROM albums AS alb
-WHERE alb.album.Id=tra.AlbumId) as AlbumAdi,
+(SELECT art.Name
+FROM artists AS art
+WHERE art.ArtistId=alb.ArtistId) as ArtistAdi,
 count(*)
-FROM tracks AS tra GROUP BY tra.artists;
+FROM albums AS alb GROUP BY alb.ArtistId;

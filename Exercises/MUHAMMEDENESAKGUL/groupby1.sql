@@ -5,5 +5,4 @@ Hangi sanatçının kaç albümü olduğunu gösteren SQL sorgusunu yazınız
 Sorgunun ArtisAdı,AlbümSayısı şeklinde olması gerekmektedir.
 */  
 
-SELECT tra.AlbümSayısı COUNT(*) FROM AlbümSayısı
-GROUP BY 
+SELECT (SELECT art.Name FROM Artis AS art WHERE art.Artisid = alb.ArtisId)

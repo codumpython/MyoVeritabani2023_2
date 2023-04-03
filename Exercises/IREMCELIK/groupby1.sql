@@ -6,6 +6,11 @@ Sorgunun ArtisAdı,AlbümSayısı şeklinde olması gerekmektedir.
 */  
 
 SELECT 
-(SELECT 
-FROM albums 
+(SELECT Title
+FROM artists AS art WHERE art.Artistid
 )
+as artistsadi,
+count(*)
+FROM albums as abl GROUP BY alb.Artistid;
+
+
