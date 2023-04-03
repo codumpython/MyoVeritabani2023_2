@@ -1,13 +1,13 @@
 import os
 liste = os.listdir("/workspace/MyoVeritabani2023_2/Exercises")
-fileName = "delete1.sql"
+fileName = "groupby1.sql"
 for item in liste:
-    dosya = open(f"/workspace/MyoVeritabani2023_2/Exercises/{item}/{fileName}","a+")
+    dosya = open(f"/workspace/MyoVeritabani2023_2/Exercises/{item}/{fileName}","w+")
     text = """
 /* Egzersiz
-
-insertegzersiz tablosuna yaptığınız kaydı silen sorguyu yazınız
-
+diagram.png dosyasından faydalanarak 
+Hangi sanatçının kaç albümü olduğunu gösteren SQL sorgusunu yazınız
+Sorgunun ArtisAdı,AlbümSayısı şeklinde olması gerekmektedir.
 */  
 """ 
     dosya.write(text)
@@ -19,14 +19,3 @@ insertegzersiz tablosuna yaptığınız kaydı silen sorguyu yazınız
 #         if dosya.read() != cevap:
 #             print(item)
 
-# MUHAMMETYUSUFYILDIZ
-# BARANDEDE
-# GurayGULGUN
-# SEFADEMIRKAYA
-# HACİALİAKKOYUN
-# BERATKESKIN
-# KUTAYDEDE
-# BERATOZDEMIR
-# IREMCELIK
-# MIRACYELKEN
-# CERENKİLCİ
