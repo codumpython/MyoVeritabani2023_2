@@ -1,12 +1,12 @@
 import os
 liste = os.listdir("/workspace/MyoVeritabani2023_2/Exercises")
-fileName = "join1.sql"
+fileName = "union1.sql"
 for item in liste:
     dosya = open(f"/workspace/MyoVeritabani2023_2/Exercises/{item}/{fileName}","w+")
     text = """
 /* Egzersiz
 diagram.png dosyasından faydalanarak 
-çalışan(employees),müşteri bilgileri(customer) ve sipariş bilgilerinin(invoices) detaylı bir dökümünü ekrana yazdıran SQL sorgusunu yazınız 
+hem çalışan hem de müşteri olan kişilerin isim ve soyisimlerini listeleyen bir sorgu yazınız 
 */  
 """ 
     dosya.write(text)

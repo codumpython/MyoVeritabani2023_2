@@ -1,0 +1,39 @@
+-- SELECT
+-- e.FirstName as Adi,
+-- e.LastName as Soyadi,
+-- 'employee' as unvan
+-- FROM employees e 
+-- UNION ALL
+-- SELECT 
+-- c.FirstName as Adi,
+-- c.LastName as Soyadi,
+-- 'customer' as unvan 
+-- FROM customers c
+-- ORDER BY Adi,Soyadi
+--------- Tablolar için sorgu
+-- CREATE TABLE t1(
+--     v1 INT
+-- );
+ 
+-- INSERT INTO t1(v1)
+-- VALUES(1),(2),(3);
+ 
+-- CREATE TABLE t2(
+--     v2 INT
+-- );
+-- INSERT INTO t2(v2)
+-- VALUES(2),(3),(4);
+--------------------------
+-- -- -- -- -- BİRLEŞİM
+-- SELECT v1 FROM t1
+-- UNION ALL
+-- SELECT v2 FROM t2;
+-- -- -- -- -- FARKI İÇİN 
+-- SELECT v1 FROM t1
+-- EXCEPT
+-- SELECT v2 FROM t2;
+-- -- -- -- -- KESİŞİM İÇİN 
+-- SELECT v1 FROM t1
+-- INTERSECT
+-- SELECT v2 FROM t2;
+
