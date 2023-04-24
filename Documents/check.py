@@ -1,13 +1,12 @@
 import os
 liste = os.listdir("/workspace/MyoVeritabani2023_2/Exercises")
-fileName = "groupby1.sql"
+fileName = "join1.sql"
 for item in liste:
     dosya = open(f"/workspace/MyoVeritabani2023_2/Exercises/{item}/{fileName}","w+")
     text = """
 /* Egzersiz
 diagram.png dosyasından faydalanarak 
-Hangi sanatçının kaç albümü olduğunu gösteren SQL sorgusunu yazınız
-Sorgunun ArtisAdı,AlbümSayısı şeklinde olması gerekmektedir.
+çalışan(employees),müşteri bilgileri(customer) ve sipariş bilgilerinin(invoices) detaylı bir dökümünü ekrana yazdıran SQL sorgusunu yazınız 
 */  
 """ 
     dosya.write(text)
