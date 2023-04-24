@@ -5,6 +5,6 @@ Artist adı F ile başlayan artitslere ait album kayıtlarını getiren sorguyu 
 */  
 
 SELECT * FROM albums
-WHERE artistid IN
+WHERE artistid IN( )
 artist Name LIKE 'F%'
 FROM artist
