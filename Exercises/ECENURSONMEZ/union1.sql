@@ -1,3 +1,6 @@
+SELECT employees.FirstName, employees.LastName, customers.FirstName, customers.LastName
+FROM employees
+JOIN customers ON employees.EmployeeId = customers.EmployeeId;
 
 /* Egzersiz
 diagram.png dosyasından faydalanarak 
