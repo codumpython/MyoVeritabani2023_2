@@ -1,10 +1,6 @@
 
 /* Egzersiz
-diagram.png dosyasından faydalanarak 
-Artist adı F ile başlayan artitslere ait album kayıtlarını getiren sorguyu subquery kullanarak yazınız
+Veritabanında bulunan positions tablosuna isminizi ekleyiniz. 
+ardından aynı isimle tekrar ekleme yaparken maaşınızı 100000 oranında arttırınız.
+bu işlemler sırasında update sorgusu yazmayınız
 */  
-
-
-SELECT * FROM albums
-WHERE artistid IN (SELECT artistid FROM artists 
-WHERE name LIKE 'F%');

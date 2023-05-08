@@ -1,12 +1,13 @@
 import os
 liste = os.listdir("/workspace/MyoVeritabani2023_2/Exercises")
-fileName = "subquery1.sql"
+fileName = "replace1.sql"
 for item in liste:
     dosya = open(f"/workspace/MyoVeritabani2023_2/Exercises/{item}/{fileName}","w+")
     text = """
 /* Egzersiz
-diagram.png dosyasından faydalanarak 
-Artist adı F ile başlayan artitslere ait album kayıtlarını getiren sorguyu subquery kullanarak yazınız
+Veritabanında bulunan positions tablosuna isminizi ekleyiniz. 
+ardından aynı isimle tekrar ekleme yaparken maaşınızı 100000 oranında arttırınız.
+bu işlemler sırasında update sorgusu yazmayınız
 */  
 """ 
     dosya.write(text)
