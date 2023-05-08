@@ -13,4 +13,4 @@ yazınız
 
 */  
 
-CREATE TABLE IF NOT EXISTS KD_personeller(personel_id INTEGER PRIMARY KEY AUTOINCREMENT, pers_adi TEXT NOT NULL, pers_soyadi TEXT NOT NULL, pers_email TEXT NOT NULL UNIQUE, pers_ap NOT NULL DEFAULT (1));
+CREATE TABLE IF NOT EXISTS YOY_personeller(personel_id INTEGER PRIMARY KEY AUTOINCREMENT, pers_adi TEXT NOT NULL, pers_soyadi TEXT NOT NULL, pers_email TEXT NOT NULL UNIQUE, pers_ap NOT NULL DEFAULT (1));

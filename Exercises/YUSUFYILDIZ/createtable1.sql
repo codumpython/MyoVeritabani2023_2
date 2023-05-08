@@ -12,10 +12,10 @@ yazınız
 
 
 */  
-CREATE TABLE IF NOT EXISTS (
-per_id INTEGER PRIMARY KEY AUTOINCREMENT,
-per_ad TEXT NOT NULL,
-per_soyad TEXT NOT NULL,
-per_email TEXT NOT NULL UNIQUE,
-person_ap NOT NULL DEFAULT (1)
-)
+CREATE TABLE IF NOT EXISTS YY_personeller(
+    person_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    person_ad TEXT NOT NULL,
+    person_soyad TEXT NOT NULL,
+    person_email TEXT NOT NULL UNIQUE,
+    person_ap NOT NULL DEFAULT (1)
+);
