@@ -13,3 +13,10 @@ yazınız
 
 */  
 
+CREATE TABLE IF NOT EXISTS DN_personeller (
+    per_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    per_adi TEXT NOT NULL,
+    per_soyadi TEXT NOT NULL UNIQUE,
+    per_ap NOT NULL DEFAULT 1
+
+);

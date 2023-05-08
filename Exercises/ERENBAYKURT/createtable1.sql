@@ -1,3 +1,8 @@
+CREATE TABLE IF NOT EXISTS EB_personeller
+personel_id INTEGER PRIMARY KEY AUTOINCREMENT
+personel_ad TEXT NOT NULL
+personel_soyad TEXT NOT NULL
+PERSONEL_M
 
 /* Egzersiz
 Veritabanında personeller için bir tablo oluşturunuz

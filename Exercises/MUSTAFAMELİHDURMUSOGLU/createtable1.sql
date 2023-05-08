@@ -12,3 +12,9 @@ yazınız
 
 
 */  
+CREATE TABLE İF NOT EXİSTS MMD_personeller(
+    MMD_personeller_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    MMD_personeller_adi TEXT NOT NULL,
+    MMD_personeller_soyadi TEXT NOT NULL,
+    MMD_personeller_email TEXT NOT NULL UNİQUE
+);

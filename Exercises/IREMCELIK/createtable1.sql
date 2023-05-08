@@ -12,3 +12,9 @@ yazınız
 
 
 */  
+
+CREATE TABLE IF NOT EXISTS IC_personeller(
+    person_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    per_adi TEXT NOT NULL,
+    per_soyadi 
+)

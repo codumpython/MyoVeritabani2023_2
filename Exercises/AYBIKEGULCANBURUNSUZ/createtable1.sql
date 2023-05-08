@@ -10,3 +10,10 @@ yazınız
 3. email boş geçilmez ve unique bir alan olmalı
 4. ap boş geçilmez varsayılan değeri 1 olan bir alan olmalıdır. 
 */  
+CREATE TABLE IF NOT EXISTS AGB_personeller(
+    person_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    person_ad TEXT NOT NULL,
+    person_soyad TEXT NOT NULL,
+    person_email TEXT NOT NULL UNIQUE,
+    person_ap NOT NULL DEFAULT (1)
+);

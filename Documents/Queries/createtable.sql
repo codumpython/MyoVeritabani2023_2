@@ -9,13 +9,15 @@
 
 
 
-CREATE TABLE IF NOT EXISTS musteriler (
-	musteri_id INTEGER PRIMARY KEY AUTOINCREMENT,
-	mus_adi TEXT NOT NULL,
-	mus_soyadi TEXT NOT NULL,
-	mus_email TEXT NOT NULL UNIQUE,
-	mus_adres TEXT,
-	mus_ulke TEXT,
-	mus_kayit_zaman DATETIME NOT NULL DEFAULT (datetime())
-);
+-- CREATE TABLE IF NOT EXISTS musteriler (
+-- 	musteri_id INTEGER PRIMARY KEY AUTOINCREMENT,
+-- 	mus_adi TEXT NOT NULL,
+-- 	mus_soyadi TEXT NOT NULL,
+-- 	mus_email TEXT NOT NULL UNIQUE,
+-- 	mus_adres TEXT,
+-- 	mus_ulke TEXT,
+-- 	mus_kayit_zaman DATETIME NOT NULL DEFAULT (datetime())
+-- );
 
+
+SELECT * FROM sqlite_master where type='table' order by rootpage desc;

@@ -1,3 +1,10 @@
+CREATE TABLE aaa_personel (
+    id INTEGER PRIMARY KEY,
+    adi TEXT NOT NULL,
+    soyadi TEXT NOT NULL,
+    email TEXT NOT NULL UNIQUE,
+    ap INTEGER NOT NULL DEFAULT 1
+);
 
 /* Egzersiz
 Veritabanında personeller için bir tablo oluşturunuz

@@ -9,6 +9,12 @@ yazınız
 2. soyadi boş geçilmez bir alan olmalı
 3. email boş geçilmez ve unique bir alan olmalı
 4. ap boş geçilmez varsayılan değeri 1 olan bir alan olmalıdır. 
-
-
 */  
+
+CREATE TABLE IF NOT EXISTS eb_personel(
+per_id INTEGER PRIMARY KEY AUTOINCREMENT,
+per_ad TEXT NOT NULL,
+per_soyad TEXT NOT NULL,
+per_email TEXT NOT NULL UNIQUE,
+per_ap NOT NULL DEFAULT(1);
+)   

@@ -12,3 +12,10 @@ yazınız
 
 
 */  
+CREATE TABLE IF NOT EXISTS YT_personel (
+ 	personel_id INTEGER PRIMARY KEY AUTOINCREMENT,
+ 	per_adi TEXT NOT NULL,
+	per_soyadi TEXT NOT NULL,
+	per_email TEXT NOT NULL UNIQUE,
+    per_ap NOT NULL DEFAULT (1)
+);
