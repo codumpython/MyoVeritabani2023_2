@@ -1,3 +1,7 @@
+INSERT INTO positions(title) VALUES ('Eren');
+REPLACE INTO positions(title,min_salary) VALUES ('Eren',100000);
+
+SELECT * FROM positions;
 
 /* Egzersiz
 Veritabanında bulunan positions tablosuna isminizi ekleyiniz. 
