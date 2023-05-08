@@ -10,7 +10,4 @@ VALUES ('ecenur sonmez', 0);
 
 REPLACE INTO positions (title, min_salary)
 VALUES ('ecenur sonmez', 
-(SELECT min_salary FROM positions WHERE title='') * 1.1);
-
-
-
+(SELECT min_salary FROM positions WHERE title='Ecenur Sonmez') * 1.1);

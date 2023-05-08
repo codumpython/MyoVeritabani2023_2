@@ -11,5 +11,5 @@ VALUES ('Doğa');
 SELECT * FROM positions;
 
 REPLACE INTO positions (title, min_salary)
-VALUES ('Doğa',100000);
+VALUES ('Doğa',100000)
 

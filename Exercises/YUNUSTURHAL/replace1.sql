@@ -8,6 +8,6 @@ INSERT INTO positions(title)
 VALUES('Yunus');
 
 REPLACE INTO positions(title, min_salary)
-VALUES('Yunus Turhal',200000);
+VALUES('Yunus',200000);
 
 SELECT * FROM positions;
