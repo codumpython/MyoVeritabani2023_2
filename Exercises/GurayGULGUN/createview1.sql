@@ -3,7 +3,9 @@
  yukarıda bulunan yapıya uygun çıktı veren sorguyu 
  diagram.png dosyasından faydalanarak yazınız
  */
-SELECT 
+
+CREATE VIEW V_PLAYLIST_DETAY_GG AS
+SELECT
 plts.PlaylistId as PlaylistId,
 plts.Name as "PlaylistAdı",
 tra.Name as "Parça Adı",
@@ -17,4 +19,6 @@ FROM artists art,
 WHERE art.ArtistId = alb.ArtistId
     AND tra.AlbumId = alb.AlbumId
     AND plt.TrackId = tra.TrackId
-    AND plt.PlaylistId = plts.PlaylistId order BY plts.PlaylistId
+    AND plt.PlaylistId = plts.PlaylistId order BY plts.PlaylistId;
+
+DROP VIEW IF EXISTS V_PLAYLIST_DETAY_GG;

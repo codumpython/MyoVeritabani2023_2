@@ -12,5 +12,3 @@ yazınız
 
 
 */  
-SELECT
- su
