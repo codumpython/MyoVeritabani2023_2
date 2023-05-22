@@ -12,3 +12,5 @@ yazınız
 
 
 */  
+SELECT
+ su

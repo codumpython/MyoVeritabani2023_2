@@ -4,8 +4,20 @@ PlaylistId,PlaylistAdı,Parça Adı,Albüm Adı,Sanatçı Adı
 yukarıda bulunan yapıya uygun çıktı veren sorguyu 
 diagram.png dosyasından faydalanarak yazınız
 */  
-SELECT plist.playlistid,plist.Name,tracks.Name,alb.title,art.Name
-FROM playlists AS plist
-INNER JOIN tracks AS tra ON plist.playlistId = tra.playlistId
-INNER JOIN albums AS alb ON tra.albumId = alb.albumId
-INNER JOIN artists AS art ON alb.artistId = art.artistId;
+SELECT * FROM(
+SELECT 
+plts.PlaylistId as PlaylistId,
+plts.Name as "PlaylistAdı",
+tra.Name as "Parça Adı",
+alb.Title as "Albüm Adı",
+art.Name as "Sanatçı Adı"
+FROM artists art,
+    albums alb,
+    tracks tra,
+    playlist_track plt,
+    playlists plts
+WHERE art.ArtistId = alb.ArtistId
+    AND tra.AlbumId = alb.AlbumId
+    AND plt.TrackId = tra.TrackId
+    AND plt.PlaylistId = plts.PlaylistId order BY plts.PlaylistId
+)

@@ -3,7 +3,12 @@
  yukarıda bulunan yapıya uygun çıktı veren sorguyu 
  diagram.png dosyasından faydalanarak yazınız
  */
-SELECT *
+SELECT 
+plts.PlaylistId as PlaylistId,
+plts.Name as "PlaylistAdı",
+tra.Name as "Parça Adı",
+alb.Title as "Albüm Adı",
+art.Name as "Sanatçı Adı"
 FROM artists art,
     albums alb,
     tracks tra,
@@ -11,6 +16,5 @@ FROM artists art,
     playlists plts
 WHERE art.ArtistId = alb.ArtistId
     AND tra.AlbumId = alb.AlbumId
-    AND plt.TrackId = tra.trackId
-    AND ply.PlaylistId = plts.PlaylistId
-order BY tra.TrackId
+    AND plt.TrackId = tra.TrackId
+    AND plt.PlaylistId = plts.PlaylistId order BY plts.PlaylistId
