@@ -1,13 +1,11 @@
 import os
 liste = os.listdir("/workspace/MyoVeritabani2023_2/Exercises")
-fileName = "createview1.sql"
+fileName = "altertable1.sql"
 for item in liste:
     dosya = open(f"/workspace/MyoVeritabani2023_2/Exercises/{item}/{fileName}","w+")
     text = """
 /* Egzersiz
-PlaylistId,PlaylistAdı,Parça Adı,Albüm Adı,Sanatçı Adı
-yukarıda bulunan yapıya uygun çıktı veren sorguyu 
-diagram.png dosyasından faydalanarak yazınız
+ekrandaki işlem adımlarını takip ederek kodu yazınız
 */  
 """ 
     dosya.write(text)
